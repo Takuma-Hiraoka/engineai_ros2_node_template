@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>engineai_ros2_node_template</name>
+  <version>0.0.1</version>
+  <description>engineai_ros2_node_template</description>
+  <maintainer email="t-hiraoka@jsk.imi.i.u-tokyo.ac.jp">Takuma-Hiroaka</maintainer>
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>interface_protocol</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
